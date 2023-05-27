@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav div img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    padding: 1px 0;
+    border: 2px dotted white;
+
+}
+
+.nalanda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(92, 154, 205);
+    padding: 0 50px 0 30px;
+    height: 70px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+div ul li {
+    list-style: none;
+    float: left;
+}
+
+
+div ul li a {
+    text-decoration: none;
+    color: white;
+    padding-left: 40px;
+    font-size: larger;
+    transition: all 300ms linear;
+}
+
+div button {
+    font-size: medium;
+    background-color: rgb(76, 0, 255);
+    height: 34px;
+    width: 90px;
+    border-radius: 20px;
+    transition: all 300 linear;
+
+}
+
+div button:hover {
+    background-color: rgba(255, 0, 221, 0.342);
+}
+
+div ul li a:hover {
+    /* background-color: lightblue; */
+    height: 20px;
+    width: 40px;
+    color: rgba(38, 0, 255, 0.514);
+}
+
+.patna {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    color: rgb(92, 154, 205);
+}
+
+table {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-collapse: collapse;
+    position: relative;
+    z-index: 1;
+}
+
+table tr th {
+    border: 1px solid grey;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: rgb(92, 154, 205);
+    color: white;
+    font-size: large;
+}
+
+table tr td {
+    border: 1px solid grey;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(92, 154, 205);
+
+}
+
+@media screen and (max-width:500px){
+    .nalanda{
+        color: rgba(0, 255, 191, 0.356);
+    }
+}
+    
